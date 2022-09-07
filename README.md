@@ -67,22 +67,37 @@ CIRCUIT DIAGRAM
 
 
 **PROGRAM** 
+~~~
+// C++ code
+//
+int sensorvalue=A0;
+int led=9;
+void setup()
+{
+  sensorvalue=0;
+  Serial.begin(9600);
+  //serial baud rate
+  pinMode(led,OUTPUT);
+  
+}
+
+void loop()
+{
+  sensorvalue=analogRead(A0);
  
-
-
-
-
-
-
-
-
+  Serial.print("pod = ");
+  Serial.println(sensorvalue);
+  delay(200);
+  digitalWrite(led,sensorvalue);
+}
+~~~
 
 **
 **Simulation output:** 
 **
+![output](off.png)
+![output](lig.png)
 
-
-[My image](username.github.com/repository/img/image.jpg)
 
 
 

@@ -1,6 +1,7 @@
 # EXPERIMENT-NO--03-INTERFACING-ANALOG-INPUT-SENSOR-POT-WITH-ARDUINO-
 
-
+Name : JEEVA ABISHAKE
+Reg.NO: 212221240018
 
 
 **AIM**:  To interface a Analog  input (angular displacement sensor POT) and scale the values up on change in the input.
